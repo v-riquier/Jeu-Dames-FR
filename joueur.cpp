@@ -4246,7 +4246,7 @@ bool JoueurC::PossibiliteCaptureDame(TableJeu &table_jeu)
 						}
 					}
 
-					if (compt4 < 6 && compt5 > 1)
+					if (compt4 < 8 && compt5 > 1)
 					{
 						if (tableau_virtuel[compt4 + 1][compt5 - 1] == -2 && tableau_virtuel[compt4 + 2][compt5 - 2] > -1 && tableau_virtuel[compt4 + 2][compt5 - 2] < val_a_verif + 1 && !eCasesATester.at(no_case_eCaseATester).i_d_h_d)
 						{
@@ -4255,7 +4255,7 @@ bool JoueurC::PossibiliteCaptureDame(TableJeu &table_jeu)
 					}
 
 					// condition pour savoir quelle direction que peut prendre la dame en bas
-					if (compt4 > 1 && compt5 < 6)
+					if (compt4 > 1 && compt5 < 8)
 					{
 						if (tableau_virtuel[compt4 - 1][compt5 + 1] == -2 && tableau_virtuel[compt4 - 2][compt5 + 2] > -1 && tableau_virtuel[compt4 - 2][compt5 + 2] < val_a_verif + 1 && !eCasesATester.at(no_case_eCaseATester).i_d_b_g)
 						{
@@ -4263,7 +4263,7 @@ bool JoueurC::PossibiliteCaptureDame(TableJeu &table_jeu)
 						}
 					}
 
-					if (compt4 < 6 && compt5 < 6)
+					if (compt4 < 8 && compt5 < 8)
 					{
 						if (tableau_virtuel[compt4 + 1][compt5 + 1] == -2 && tableau_virtuel[compt4 + 2][compt5 + 2] > -1 && tableau_virtuel[compt4 + 2][compt5 + 2] < val_a_verif + 1 && !eCasesATester.at(no_case_eCaseATester).i_d_b_d)
 						{
