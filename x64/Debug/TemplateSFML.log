@@ -1,0 +1,95 @@
+﻿  decor.cpp
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(127): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(128): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(226): warning C4244: '=' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(227): warning C4244: '=' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(241): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(242): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(482): warning C4244: '=' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(483): warning C4244: '=' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(499): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(500): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(554): warning C4244: '=' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(555): warning C4244: '=' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(659): warning C4244: '=' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(660): warning C4244: '=' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(687): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(688): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(860): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(1508): warning C4244: '=' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(1509): warning C4244: '=' : conversion de 'int' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(1585): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(1608): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+  TemplateSFML.vcxproj -> C:\Users\Vincent Riquier\Documents\Visual Studio 2017\source\TemplateSFML\x64\Debug\TemplateSFML.exe
