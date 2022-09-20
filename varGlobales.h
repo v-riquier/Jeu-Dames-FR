@@ -10,7 +10,7 @@ extern std::vector<sf::Vector2f> ensemblePionValide;
 extern std::vector<sf::Vector2f> ensemblePCapDeDepl;
 extern bool HumvsHum;
 extern bool jeu_en_cours;
-extern sf::Texture t_tableDames, t_pion_n, t_pion_b, t_pion_n_d, t_pion_b_d, t_indic_selection, t_masquePionCDC;
+extern sf::Texture t_tableDames, t_pion_n, t_pion_b, t_dame_n, t_dame_b, t_indic_selection, t_masquePionCDC;
 extern sf::Sprite s_indic_selection;
 extern std::vector<sf::Sprite> ensembleImPionValide;
 extern std::vector<sf::Sprite> ensembleImCaseValide;

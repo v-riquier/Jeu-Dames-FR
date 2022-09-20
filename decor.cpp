@@ -11,9 +11,9 @@ Decor::Decor(sf::RenderWindow &fenetre) : m_joueurC(0), m_menu(0), m_info(0)
 	t_im_perdu.loadFromFile("donnees/im_perdu.png");
 	t_tableDames.loadFromFile("donnees/table.png");
 	t_pion_b.loadFromFile("donnees/pion_blanc.png");
-	t_pion_b_d.loadFromFile("donnees/pion_b_dame.png");
+	t_dame_b.loadFromFile("donnees/pion_b_dame.png");
 	t_pion_n.loadFromFile("donnees/pion_noir.png");
-	t_pion_n_d.loadFromFile("donnees/pion_n_dame.png");
+	t_dame_n.loadFromFile("donnees/pion_n_dame.png");
 	t_indic_selection.loadFromFile("donnees/masque_vert.png");
 	t_masquePionCDC.loadFromFile("donnees/masque_jaune.png");
 	s_indic_selection.setTexture(t_indic_selection);
@@ -94,7 +94,7 @@ void Decor::SelectionTextures()
 			}
 			if (m_tableJeu.joueurs.at(cmpt).pions.at(cmpt2).type_pion == dame_N)
 			{
-				m_tableJeu.joueurs.at(cmpt).pions.at(cmpt2).s_pion.setTexture(t_pion_n_d);
+				m_tableJeu.joueurs.at(cmpt).pions.at(cmpt2).s_pion.setTexture(t_dame_n);
 			}
 			if (m_tableJeu.joueurs.at(cmpt).pions.at(cmpt2).type_pion == pion_B)
 			{
@@ -102,7 +102,7 @@ void Decor::SelectionTextures()
 			}
 			if (m_tableJeu.joueurs.at(cmpt).pions.at(cmpt2).type_pion == dame_B)
 			{
-				m_tableJeu.joueurs.at(cmpt).pions.at(cmpt2).s_pion.setTexture(t_pion_b_d);
+				m_tableJeu.joueurs.at(cmpt).pions.at(cmpt2).s_pion.setTexture(t_dame_b);
 			}
 			cmpt2++;
 		}

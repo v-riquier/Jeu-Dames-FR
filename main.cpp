@@ -9,7 +9,7 @@ std::vector<Vector2f> ensemblePionValide;
 std::vector<Vector2f> ensemblePCapDeDepl;
 
 bool jeu_en_cours = false;
-sf::Texture t_tableDames, t_pion_n, t_pion_b, t_pion_n_d, t_pion_b_d, t_indic_selection, t_masquePionCDC;
+sf::Texture t_tableDames, t_pion_n, t_pion_b, t_dame_n, t_dame_b, t_indic_selection, t_masquePionCDC;
 sf::Sprite s_indic_selection;
 std::vector<Sprite> ensembleImPionValide;
 std::vector<Sprite> ensembleImCaseValide;
