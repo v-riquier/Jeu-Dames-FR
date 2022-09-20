@@ -3877,7 +3877,7 @@ bool JoueurC::PossibiliteCapture(TableJeu &table_jeu)
 						}
 					}
 
-					if (compteur3 < 6 && compteur4 > 1)
+					if (compteur3 < 8 && compteur4 > 1)
 					{
 						if (tableau_virtuel[compteur3 + 1][compteur4 - 1] == -2 && tableau_virtuel[compteur3 + 2][compteur4 - 2] > -1 && tableau_virtuel[compteur3 + 2][compteur4 - 2] < val_a_verif + 1)
 						{

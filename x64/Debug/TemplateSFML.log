@@ -1,95 +1,625 @@
-﻿  decor.cpp
-c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(127): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+﻿  joueur.cpp
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(18): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(31): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(174): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
           with
           [
               T=float
           ]
-c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(128): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(175): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
           with
           [
               T=float
           ]
-c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(226): warning C4244: '=' : conversion de 'int' en 'T', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(186): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
           with
           [
               T=float
           ]
-c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(227): warning C4244: '=' : conversion de 'int' en 'T', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(187): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
           with
           [
               T=float
           ]
-c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(241): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(203): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
           with
           [
               T=float
           ]
-c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(242): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(204): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
           with
           [
               T=float
           ]
-c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(482): warning C4244: '=' : conversion de 'int' en 'T', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(232): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
           with
           [
               T=float
           ]
-c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(483): warning C4244: '=' : conversion de 'int' en 'T', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(233): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
           with
           [
               T=float
           ]
-c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(499): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(249): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
           with
           [
               T=float
           ]
-c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(500): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(250): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
           with
           [
               T=float
           ]
-c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(554): warning C4244: '=' : conversion de 'int' en 'T', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(286): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
           with
           [
               T=float
           ]
-c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(555): warning C4244: '=' : conversion de 'int' en 'T', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(287): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
           with
           [
               T=float
           ]
-c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(659): warning C4244: '=' : conversion de 'int' en 'T', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(297): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
           with
           [
               T=float
           ]
-c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(660): warning C4244: '=' : conversion de 'int' en 'T', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(298): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
           with
           [
               T=float
           ]
-c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(687): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(314): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
           with
           [
               T=float
           ]
-c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(688): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(315): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
           with
           [
               T=float
           ]
-c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(860): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
-c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(1508): warning C4244: '=' : conversion de 'int' en 'T', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(341): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
           with
           [
               T=float
           ]
-c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(1509): warning C4244: '=' : conversion de 'int' en 'T', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(342): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
           with
           [
               T=float
           ]
-c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(1585): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
-c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\decor.cpp(1608): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(358): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(359): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(385): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(386): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(402): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(403): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(429): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(430): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(446): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(447): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(486): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(487): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(550): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(551): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(682): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(683): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(694): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(695): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(711): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(712): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(740): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(741): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(757): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(758): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(798): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(799): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(809): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(810): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(826): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(827): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(853): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(854): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(870): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(871): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(897): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(898): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(914): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(915): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(941): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(942): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(958): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(959): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1002): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1003): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1061): warning C4244: '=' : conversion de 'double' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1062): warning C4244: '=' : conversion de 'double' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1075): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1076): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1177): warning C4244: '=' : conversion de 'double' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1178): warning C4244: '=' : conversion de 'double' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1189): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1267): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1290): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1291): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1348): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1355): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1365): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1372): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1397): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1398): warning C4553: '==' : résultat de l'expression non utilisé ; souhaitiez-vous utiliser '=' ?
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1422): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1423): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1524): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1531): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1538): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1545): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1555): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1562): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1573): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1580): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1591): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1598): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1609): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1616): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1627): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1634): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1645): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1652): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1663): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1670): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1677): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1688): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1695): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1702): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1713): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1720): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1727): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1738): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1745): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1752): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1763): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1770): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1777): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1784): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1848): warning C4244: '=' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1849): warning C4244: '=' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1864): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1865): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1876): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1877): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1890): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1891): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1907): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1908): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1935): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1936): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1949): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1950): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1966): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(1967): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(2051): warning C4244: '=' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(2052): warning C4244: '=' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(2077): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(2078): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(2094): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(2095): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(2121): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(2122): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(2138): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(2139): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(2165): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(2166): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(2182): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(2183): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(2209): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(2210): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(2226): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(2227): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(2307): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(2308): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(2444): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(2599): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(2706): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(2707): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(2831): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(3607): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(3743): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(3744): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(3846): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(3995): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(4099): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(4100): warning C4244: 'initialisation' : conversion de 'T' en 'int', perte possible de données
+          with
+          [
+              T=float
+          ]
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(4207): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(4980): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(5211): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(5236): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\vincent riquier\documents\visual studio 2017\source\templatesfml\joueur.cpp(5197): warning C4715: 'JoueurC::getJoueur' : les chemins de contrôle ne retournent pas tous une valeur
   TemplateSFML.vcxproj -> C:\Users\Vincent Riquier\Documents\Visual Studio 2017\source\TemplateSFML\x64\Debug\TemplateSFML.exe
