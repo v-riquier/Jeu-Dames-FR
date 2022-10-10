@@ -279,33 +279,3 @@ int board::evaluate()
 	return a1 + a2 + b + c + d + e;
 }
 
-//determines whether or not players will be a computer calls modifyBoard
-void board::startup()
-{
-	//reset the board
-	reset();
-	whoComputer();
-	bool b = true;
-	cout << "Do you want to load a game from a file? (Y/N):" << endl;
-	char c = ' ';
-	while (b)
-	{
-		cin >> c;
-		if (tolower(c) == 'y' || tolower(c) == 'n')
-			b = false;
-	}
-	if (tolower(c) == 'y')
-	{
-		string name;
-		cout << "Enter filename: " << endl;
-		cin >> name;
-		ifstream fin(name.c_str());
-		while (!fin.good())
-		{
-			cout << "Enter filename: " << endl;
-			cin >> name;
-			fin.open(name.c_str());
-		}
-		modifyBoard(fin);
-	}
-}

@@ -67,9 +67,9 @@ board::board(const board& b): color(b.color)
 
 //resets the board, called by printEBoard in boardPublic.cpp
 //create the start board
-//first three rows are filled with black pieces
+//first four rows are filled with black pieces
 //next two rows are empty
-//last three rows are filled with red pieces
+//last four rows are filled with red pieces
 void board::reset()
 {
 	color = 'b';

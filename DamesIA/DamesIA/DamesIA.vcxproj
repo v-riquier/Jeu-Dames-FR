@@ -128,7 +128,7 @@
     <ClCompile Include="..\boardMoves.cpp" />
     <ClCompile Include="..\boardPrint.cpp" />
     <ClCompile Include="..\boardPublic.cpp" />
-    <ClCompile Include="..\checkersai.cpp" />
+    <ClCompile Include="..\main.cpp" />
     <ClCompile Include="..\game.cpp" />
   </ItemGroup>
   <ItemGroup>
