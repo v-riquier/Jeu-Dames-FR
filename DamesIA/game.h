@@ -30,10 +30,10 @@ class game
 	static const int maxIterDepth;
 
 	//best move from last complete alpha-beta search
-	move* bestM;
+	mouve* bestM;
 
 	//temporary best move for current alpha-beta search
-	move* tempBestM;
+	mouve* tempBestM;
 
 	//keeps track of the max depth of the current alpha-beta search
 	int maxdepth;

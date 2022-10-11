@@ -30,7 +30,7 @@ int board::timeLimit = 0;
 //		4
 // 1 -> 2 would have numTimes equal to 2 since the jump would be utilized twice,
 //once for each move
-move::~move()
+mouve::~mouve()
 {
 	for (list<jump*>::iterator it = jpoints.begin(); it != jpoints.end(); ++it)
 	{

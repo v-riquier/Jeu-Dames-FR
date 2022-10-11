@@ -1,4 +1,2 @@
-﻿  boardPublic.cpp
-  reseau.cpp
-c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'reseau.cpp' : No such file or directory
-  Génération de code en cours...
+﻿  main.cpp
+  DamesIA.vcxproj -> C:\Users\Vincent Riquier\Documents\Visual Studio 2017\source\DamesIA - Copie\Debug\DamesIA.exe

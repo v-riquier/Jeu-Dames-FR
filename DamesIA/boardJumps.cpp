@@ -75,7 +75,7 @@ void board::createJumpMove(list<jump*>& jlist)
 		{
 			if ((*it)->noNext)
 			{
-				move* m = new move((*it)->jumpingPiece, -1, -1, -1, -1);
+				mouve* m = new mouve((*it)->jumpingPiece, -1, -1, -1, -1);
 				jump* jp = (*it);
 				while (jp != NULL)
 				{

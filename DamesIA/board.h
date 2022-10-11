@@ -49,12 +49,12 @@ class jump
 	//friend classes:
 	//---------------------------------------------------------------------------------
 	//pointers to jump are deleted in move's destructor
-	friend class move;
+	friend class mouve;
 	//board's members create jumps
 	friend class board;
 };
 
-class move
+class mouve
 {
 	//moving piece
 	char mP;
@@ -75,11 +75,11 @@ class move
 	std::list<jump*> jpoints;
 
 	//constructor for move
-	move(char c, int xs, int ys, int xe, int ye) : mP(c), xi(xs), yi(ys), xf(xe), yf(ye) {}
+	mouve(char c, int xs, int ys, int xe, int ye) : mP(c), xi(xs), yi(ys), xf(xe), yf(ye) {}
 
 	//destructor for move, found in board.cpp
 	//frees all the heap allocated memory for the jumps in jpoints
-	~move();
+	~mouve();
 
 	//---------------------------------------------------------------------------------
 	//friend classes:
@@ -213,7 +213,7 @@ class board
 	static int timeLimit;
 
 	//list of moves for the board:
-	std::list<move*> mlist;
+	std::list<mouve*> mlist;
 
 	//---------------------------------------------------------------------------------
 	//functions found in boardPublic.cpp, functions called in game.cpp
@@ -226,10 +226,10 @@ class board
 
 	//makes the move
 	//should be used on a copy of a board when alpha-beta searching
-	void makeMove(move*);
+	void makeMove(mouve*);
 
 	//reverses a move
-	void undoMove(move*);
+	void undoMove(mouve*);
 
 	//checks double corners and diagonals near end game
 	//gives points for occupying a double corner for losing player

@@ -123,7 +123,7 @@ int game::alphabeta(sptr<board> &b, int depth, int alpha, int beta)
 	reachedEnd = false; // set reached end as false, means that remaining game space still isn't fully explored
 	if (depth == 0)
 		return b->evaluate();
-	list<move *>::iterator iter = b->mlist.begin();
+	list<mouve *>::iterator iter = b->mlist.begin();
 
 	int localalpha = std::numeric_limits<int>::min();
 	int localbeta = std::numeric_limits<int>::max();

@@ -59,7 +59,7 @@ void board::inputCommand()
 	//if the end of the list is reached
 	//input command again until one is matched
 	getline(cin, m);
-	list<move*>::iterator it = mlist.begin();
+	list<mouve*>::iterator it = mlist.begin();
 
 	while (it != mlist.end())
 	{
@@ -130,7 +130,7 @@ void board::printMoves()
 		cout << "Player 1 to move." << endl;
 	else cout << "Player 2 to move." << endl;
 	cout << "The legal moves are:" << endl;
-	list<move*>::const_iterator it = mlist.begin();
+	list<mouve*>::const_iterator it = mlist.begin();
 	for (; it != mlist.end(); ++it)
 	{
 		cout << "Move: ";
@@ -144,7 +144,7 @@ void board::printMoves()
 //if there's any jumps, they are implemented
 //pieces are erased and subtracted from the total count if necessary
 //moves the piece from one position to another
-void board::makeMove(move* m)
+void board::makeMove(mouve* m)
 {
 	if (!m->jpoints.empty())
 	{
@@ -170,7 +170,7 @@ void board::makeMove(move* m)
 //iterate through its list of jumps
 //add back all the characters that were temporarily deleted
 //add the jumping piece in the start position of the move
-void board::undoMove(move* m)
+void board::undoMove(mouve* m)
 {
 	if (!m->jpoints.empty())
 	{
