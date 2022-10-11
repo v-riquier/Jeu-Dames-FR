@@ -1,12 +1,2 @@
-﻿  board.cpp
-  boardJumps.cpp
-  boardMoves.cpp
-  boardPrint.cpp
-  boardPublic.cpp
-  main.cpp
-c:\users\vincent riquier\documents\visual studio 2017\source\damesia - copie\main.cpp(48): error C2248: 'game::computerTurn' : impossible d'accéder à private membre déclaré(e) dans la classe 'game'
-  c:\users\vincent riquier\documents\visual studio 2017\source\damesia - copie\game.h(70): note: voir la déclaration de 'game::computerTurn'
-  c:\users\vincent riquier\documents\visual studio 2017\source\damesia - copie\game.h(23): note: voir la déclaration de 'game'
-  game.cpp
-c:\users\vincent riquier\documents\visual studio 2017\source\damesia - copie\game.cpp(24): error C2614: 'game' : initialisation de membre non conforme : 'gameOver' n'est ni une base ni un membre
-  Génération de code en cours...
+﻿  main.cpp
+  DamesIA.vcxproj -> C:\Users\Vincent Riquier\Documents\Visual Studio 2017\source\DamesIA - Copie\Debug\DamesIA.exe

@@ -16,7 +16,7 @@ int main()
 	while (!gameOver)
 	{
 		g.currentB->printBoard();
-		if (!g.currentB->jumpsAvailable() || !g.currentB->listMoves())
+		if (!(g.currentB->jumpsAvailable() || g.currentB->listMoves()))
 		{
 			gameOver = true;
 			cout << "The game is over." << endl;
@@ -34,6 +34,9 @@ int main()
 				if (tolower(answer) == 'y')
 				{
 					loop = false;
+					gameOver = false;
+					g.currentB->reset();
+					g.currentB->whoComputer();
 				}
 				else if (tolower(answer) == 'n')
 					loop = false;

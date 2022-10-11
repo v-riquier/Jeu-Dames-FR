@@ -66,10 +66,7 @@ class game
 	//prints depth searched up to, whether or not time ran out, and computer's move
 	void outputMessage();
 
-	//everything related to the computer's turn
-	void computerTurn();
-
-	//alpha beta searched called by computerTurn
+		//alpha beta searched called by computerTurn
 	int alphabeta(sptr<board>&, int, int, int);
 
 public:
@@ -84,6 +81,8 @@ public:
 	//maintains a pointer to the current board
 	sptr<board> currentB;
 
+	//everything related to the computer's turn
+	void computerTurn();
 };
 
 

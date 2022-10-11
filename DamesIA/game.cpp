@@ -21,7 +21,7 @@ const int game::maxIterDepth = 20;
 
 // game's constructor
 game::game() : currentB(sptr<board>(new board())), bestM(NULL), tempBestM(NULL), maxdepth(0),
-cdepth(0), timeUp(false), gameOver(false), reachedEnd(false), startTime(0), endTime(0),
+cdepth(0), timeUp(false), reachedEnd(false), startTime(0), endTime(0),
 startTimeD(0), endTimeD(0) {}
 
 // generates more turns and starts up the game
