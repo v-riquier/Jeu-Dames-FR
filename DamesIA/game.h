@@ -74,10 +74,6 @@ public:
 	//constructor, initializes data members
 	game();
 
-	//calls startup
-	//calls appropriate functions to play checkers
-	void playTheGame();
-
 	//maintains a pointer to the current board
 	sptr<board> currentB;
 

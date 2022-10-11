@@ -1,5 +1,6 @@
 #include <assert.h>
 #include "board.h"
+
 #include <cctype>
 #include <cstdlib>
 #include <fstream>
@@ -15,6 +16,7 @@ using std::ifstream;
 using std::list;
 using std::string;
 using std::tolower;
+using std::copy;
 
 //used to print out all available moves
 //takes a command as an argument and displays it
@@ -58,6 +60,7 @@ void board::inputCommand()
 	//input command again until one is matched
 	getline(cin, m);
 	list<move*>::iterator it = mlist.begin();
+
 	while (it != mlist.end())
 	{
 		if ((*it)->command == m)

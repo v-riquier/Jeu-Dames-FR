@@ -24,12 +24,6 @@ game::game() : currentB(sptr<board>(new board())), bestM(NULL), tempBestM(NULL),
 cdepth(0), timeUp(false), reachedEnd(false), startTime(0), endTime(0),
 startTimeD(0), endTimeD(0) {}
 
-// generates more turns and starts up the game
-void game::playTheGame()
-{
-	
-}
-
 // computer's turn
 // calls alpha beta search
 // if there's only one available move, makes that move immediately
