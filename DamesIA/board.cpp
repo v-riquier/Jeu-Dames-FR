@@ -53,7 +53,7 @@ board::board(const board &b) : color(b.color)
 void board::reset()
 {
 	color = 'b';
-	/*for (int i = 0; i != 4; ++i)
+	for (int i = 0; i != 4; ++i)
 	{
 		for (int j = 0; j != 5; ++j)
 		{
@@ -72,13 +72,6 @@ void board::reset()
 		for (int j = 0; j != 5; ++j)
 		{
 			arr[i][j] = 'r';
-		}
-	}*/
-	for (int i = 0; i != 10; ++i)
-	{
-		for (int j = 0; j != 5; ++j)
-		{
-			arr[i][j] = 'e';
 		}
 	}
 }
