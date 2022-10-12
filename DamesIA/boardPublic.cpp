@@ -46,7 +46,7 @@ void board::convertCommand(const string& s)
 void board::inputCommand()
 {
 	printMoves();
-	string m;
+	char* deplacement = new char[40];
 	cout << "Enter a sequence of integers indicating a move." << endl;
 	cout << "Each set of two integers represents a position." << endl;
 	cout << "End the sequence with -1." << endl;
@@ -58,12 +58,12 @@ void board::inputCommand()
 	//try to match the command with one in the list of moves
 	//if the end of the list is reached
 	//input command again until one is matched
-	getline(cin, m);
+	cin.clear();
+	cin.getline(deplacement, 40);
 	list<mouve*>::iterator it = mlist.begin();
-
 	while (it != mlist.end())
 	{
-		if ((*it)->command == m)
+		if ((*it)->command == deplacement)
 		{
 			cout << "You have chosen the move: ";
 			convertCommand((*it)->command);
@@ -73,11 +73,13 @@ void board::inputCommand()
 		++it;
 		if (it == mlist.end())
 		{
-			getline(cin, m);
+			cin.getline(deplacement, 40);
 			it = mlist.begin();
+			cout << deplacement << endl;
 		}
 	}
 	makeMove(*it);
+	delete deplacement;
 }
 
 //print the board
@@ -131,6 +133,10 @@ void board::printMoves()
 	else cout << "Player 2 to move." << endl;
 	cout << "The legal moves are:" << endl;
 	list<mouve*>::const_iterator it = mlist.begin();
+	while (it != mlist.end()) {
+		cout << (*it)->command << endl;
+		++it;
+	}
 	for (; it != mlist.end(); ++it)
 	{
 		cout << "Move: ";
