@@ -1,190 +1,63 @@
-#include <SFML/Graphics.hpp>
+#define NDEBUG
 #include <iostream>
-#include "controleur.h"
+#include "board.h"
+#include <fstream>
+#include <list>
+#include "game.h"
 
-using namespace sf;
-
-std::vector<Vector2f> ensembleCaseValide;
-std::vector<Vector2f> ensemblePionValide;
-std::vector<Vector2f> ensemblePCapDeDepl;
-
-bool jeu_en_cours = false;
-sf::Texture t_tableDames, t_pion_n, t_pion_b, t_dame_n, t_dame_b, t_indic_selection, t_masquePionCDC;
-sf::Sprite s_indic_selection;
-std::vector<Sprite> ensembleImPionValide;
-std::vector<Sprite> ensembleImCaseValide;
-int sourisX, sourisY;
-bool LA_MAIN = true;
-bool ia_simp_depl = false;
-bool ia_captur_p = false;
-bool selec_valide = false;
-bool fin_partie = false;
-bool partie_gagne = false;
-bool HumvsHum = false;
-
-bool h_capture = false;
-bool h_deplacem = false;
-float delai = 1.5f;
+using namespace std;
 
 int main()
 {
-	srand(time(0));
-	RenderWindow fenetre(VideoMode(1050, 750), "DAMES");
-	fenetre.setFramerateLimit(60);
-
-	Controleur controleurJ(fenetre);
-
-	Clock clock;
-	float timer = 0;
-
-	while (fenetre.isOpen())
+	game g;
+	bool gameOver = false;
+	g.currentB->reset();
+	g.currentB->whoComputer();
+	while (!gameOver)
 	{
-		float time = clock.getElapsedTime().asSeconds();
-		clock.restart();
-		timer += time;
-
-		Event evenement;
-
-		while (fenetre.pollEvent(evenement))
+		g.currentB->printBoard();
+		if (!(g.currentB->jumpsAvailable() || g.currentB->listMoves()))
 		{
-			if (evenement.type == Event::Closed)
+			gameOver = true;
+			cout << "The game is over." << endl;
+			cout << endl;
+			if (g.currentB->getTurn() == 'r')
+				cout << "Player 1 wins." << endl;
+			else
+				cout << "Player 2 wins." << endl;
+			cout << "Do you want to play again? (Y/N):" << endl;
+			char answer;
+			cin >> answer;
+			bool loop = true;
+			while (loop)
 			{
-				fenetre.close();
-				break;
-			}
-
-			if (evenement.type == Event::MouseMoved)
-			{
-				sourisX = evenement.mouseMove.x;
-				sourisY = evenement.mouseMove.y;
-				if (!jeu_en_cours)
+				if (tolower(answer) == 'y')
 				{
-					controleurJ.gestionDplSouris();
+					loop = false;
+					gameOver = false;
+					g.currentB->reset();
+					g.currentB->whoComputer();
+				}
+				else if (tolower(answer) == 'n')
+					loop = false;
+				else
+				{
+					cout << "Do you want to play again? (Y/N):" << endl;
+					cin >> answer;
 				}
 			}
-
-			if (evenement.type == Event::MouseButtonPressed && jeu_en_cours && LA_MAIN)
-			{
-				Mouse::Button button = evenement.mouseButton.button;
-				if (button == Mouse::Left) // Bouton gauche
-				{
-					controleurJ.gestionTour(HUMAIN);
-					timer = 0;
-				}
-			}
-
-			if (evenement.type == Event::MouseButtonPressed && jeu_en_cours && !LA_MAIN && HumvsHum)
-			{
-				Mouse::Button button = evenement.mouseButton.button;
-				if (button == Mouse::Left) // Bouton gauche
-				{
-					controleurJ.gestionTour(HUMAIN2);
-				}
-			}
-
-			if (evenement.type == Event::MouseButtonPressed && !jeu_en_cours)
-			{
-				Mouse::Button button = evenement.mouseButton.button;
-				if (button == Mouse::Left) // Bouton gauche
-				{
-					controleurJ.gestionSelectionSouris();
-
-					if (jeu_en_cours)
-					{
-						controleurJ.debutJeu();
-					}
-				}
-			}
-
-			/*
-				  switch(evenement.type)
-				  {
-				  case Event::Closed:
-					fenetre.close();
-					break;
-
-
-					case Event::MouseMoved:
-						{
-							sourisX=evenement.mouseMove.x;
-							sourisY=evenement.mouseMove.y;
-							if(!jeu_en_cours)
-							{
-								controleurJ.gestionDplSouris();
-							}
-						}
-						break;
-
-				  default:
-					break;
-
-
-				  }
-
-				  //gestion des evenements de la souris
-				  if(evenement.type==Event::MouseButtonPressed && !jeu_en_cours)
-				  {
-					  Mouse::Button button = evenement.mouseButton.button;
-					  if (button == Mouse::Left) // Bouton gauche
-					  {
-						  controleurJ.gestionSelectionSouris();
-
-						  if(jeu_en_cours)
-						  {
-							  std::cout<<"Debut Jeu"<<std::endl;
-							  controleurJ.debutJeu();
-
-						  }
-					  }
-
-				  }
-
-				  //
-
-
-				  */
-			/*
-			if(evenement.type==Event::MouseButtonPressed && jeu_en_cours && !LA_MAIN)
-			{
-				Mouse::Button button = evenement.mouseButton.button;
-				if (button == Mouse::Left) // Bouton gauche
-				{
-					controleurJ.gestionTour(HUMAIN2);
-					timer=0;
-
-				}
-
-			}
-			*/
 		}
-
-		if (jeu_en_cours)
-		{
-			controleurJ.compteurTemps();
-
-			// tour CPU
-			if (!LA_MAIN && !HumvsHum && timer > delai)
-			{
-				timer = 0;
-				controleurJ.gestionTour(CPU);
-			}
-
-			controleurJ.gestMajD();
-			controleurJ.Fin_Jeu();
-		}
-
-		fenetre.clear(Color(123, 44, 32));
-
-		if (jeu_en_cours)
-		{
-			controleurJ.afficheJeu();
-		}
+		else if (g.currentB->isComputerTurn())
+			g.computerTurn();
 		else
-		{
-			controleurJ.afficheMenu();
-		}
-
-		fenetre.display();
+			/* int clicsdepart[2];
+			int clicsarrivee[2];
+			clicsdepart[0] = event.mouseButton.x / 75;
+			clicsdepart[1] = event.mouseButton.y / 75;
+			clicsarrivee[0] = event.mouseButton.x / 75;
+			clicsarrivee[1] = event.mouseButton.y / 75;
+			currentB->inputCommand(clicsdepart,clicsarrivee);
+			*/
+			g.currentB->inputCommand();
 	}
-	return 0;
 }
