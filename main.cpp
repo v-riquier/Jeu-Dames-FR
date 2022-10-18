@@ -21,7 +21,7 @@ int main()
 			gameOver = true;
 			cout << "The game is over." << endl;
 			cout << endl;
-			if (g.currentB->getTurn() == 'r')
+			if (g.currentB->getTurn() == 'n')
 				cout << "Player 1 wins." << endl;
 			else
 				cout << "Player 2 wins." << endl;

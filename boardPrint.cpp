@@ -12,13 +12,7 @@ using std::endl;
 using std::list;
 using std::string;
 
-//converts a position on the compressed 8x4 matrix
-//to a component of a command for the expanded 8x8 matrix
-//string s is the command the point is appended to
-//don't need to bound check because that has
-//already been done when creating moves and jumps
-//called by createJumpMove in boardJumps.cpp
-//called by createMove in boardMove.cpp
+
 void board::convert(const int& x, const int& y, string& s)
 {
 	//assert(0 <= x && x <= 7 && 0 <= y && y <= 3);
@@ -38,8 +32,6 @@ void board::convert(const int& x, const int& y, string& s)
 	 s += ' ';
 }
 
-//used for printing out moves, converting the y coordinate in the matrix
-//to the coordinate on the expanded 8x8 board
 inline int board::convertY(const int& x, const int& y)
 {
     if (x % 2 == 0)
@@ -47,11 +39,6 @@ inline int board::convertY(const int& x, const int& y)
     else return (2*y);
 }
 
-//prints a line of the board
-//that does not contain any pieces
-//i.e something like: XXX|   |XXX|   |XXX|   |XXX|
-//cases vary by whether or not it's an even or odd row
-//called by printBoard in boardPublic.cpp
 void board::printline(const int& i, const string& lineEven, const string& lineOdd)
 {
 	if (i % 2 == 0)
@@ -61,11 +48,11 @@ void board::printline(const int& i, const string& lineEven, const string& lineOd
 		for (int j = 0; j != 4; ++j)
 		{
 			cout << "  ";
-			printcolor(arr[i][j]);
+			printcolor(plateau[i][j]);
 			cout << "  |XXXXX|";
 		}
 		cout << "  ";
-		printcolor(arr[i][4]);
+		printcolor(plateau[i][4]);
 		cout << "  |" << endl;;
 		cout << lineEven << endl;
 	}
@@ -76,42 +63,26 @@ void board::printline(const int& i, const string& lineEven, const string& lineOd
 		for (int j = 0; j != 4; ++j)
 		{
 			cout << "  ";
-			printcolor(arr[i][j]);
+			printcolor(plateau[i][j]);
 			cout << "  |XXXXX|";
 		}
 		cout << "  ";
-		printcolor(arr[i][4]);
+		printcolor(plateau[i][4]);
 		cout << "  |XXXXX|" << endl;;
 		cout << lineOdd << endl;
 	}
 }
 
-//function for printing a character in a different color
-//uses escape sequences to print out a color character
 void board::printcolor(const char& c)
 {
 	if (c == 'e')
 		cout << ' ';
-	else if (c == 'r' || c == 'R')
-	{
-		//sets piece as magenta color
-		string default_console = "\033[0m";
-		string color = "\033[1;35m";
-		cout << color << c;
-		cout << default_console;
-	}
 	else
 	{
-		//c is 'b' or 'B', sets pieces as cyan color
-		string default_console = "\033[0m";
-		string color = "\033[1;36m";
-		cout << color << c;
-		cout << default_console;
+		cout << c;
 	}
 }
 
-//called by startup, which is found in board.h
-//prompts user to assign who is/ is not a computer
 void board::whoComputer()
 {
 	bool b = true;
